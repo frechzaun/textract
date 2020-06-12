@@ -86,6 +86,7 @@ class ShellParser(BaseParser):
             pipe = subprocess.Popen(
                 args,
                 stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                shell=True
             )
         except OSError as e:
             if e.errno == errno.ENOENT:
