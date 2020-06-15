@@ -9,7 +9,7 @@ textract
 ========
 
 Extract text from any document. No muss. No fuss.
-This version has a tiny patch by frechzaun to make the PDF extractor work, implementing the advice here https://github.com/deanmalmgren/textract/issues/154
+This version has a tiny patch by frechzaun, implementing the advice here https://github.com/deanmalmgren/textract/issues/154 although ultimately it did not fix the PDF converter problem. 
 
 `Full documentation <http://textract.readthedocs.org>`__.
 
